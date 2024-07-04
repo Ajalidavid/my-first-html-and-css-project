@@ -1,0 +1,141 @@
+body {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navber {
+  height: 10px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.top {
+  display: flex;
+  gap: 20px;
+}
+.hero {
+  height: 100vh;
+  background-image: url(background\ image.jpg);
+  background-repeat: no-repeat;
+}
+.man {
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-top: 250px;
+}
+.ben {
+  width: 140px;
+  height: 28px;
+  background-color: blueviolet;
+  border-color: transparent;
+  border-style: solid;
+}
+.pen {
+  width: 140px;
+  height: 28px;
+  background-color: beige;
+  border-color: transparent;
+  border-style: solid;
+}
+.seed {
+  height: 60vh;
+  background-color: white;
+}
+.son {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  gap: 40px;
+}
+.big {
+  text-transform: uppercase;
+  background-color: blueviolet;
+  border-color: transparent;
+}
+.father {
+  height: 60vh;
+  background-color: beige;
+  margin-top: 200px;
+}
+.mother {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  gap: 40px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.brother {
+  text-transform: uppercase;
+  background-color: blueviolet;
+  border-color: transparent;
+}
+.head {
+  background-image: url(beach.jpg);
+  height: 60vh;
+}
+.follow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  margin-top: 300px;
+  color: white;
+  font-size: 20px;
+}
+.member {
+  background-color: blueviolet;
+  text-transform: uppercase;
+  border-color: transparent;
+  width: 100px;
+  color: white;
+}
+.dave {
+  background-color: white;
+  height: 120vh;
+}
+.press {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+.money {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+}
+
+/* media quaerry */
+@media (max-width: 1440px) {
+  .hero {
+    color: cornflowerblue;
+  }
+}
+@media (max-width: 1024px) {
+  .son {
+    display: contents;
+  }
+}
+@media (max-width: 834px) {
+  .mother {
+    display: contents;
+  }
+}
